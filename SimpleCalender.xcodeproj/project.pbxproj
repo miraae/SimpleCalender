@@ -7,21 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0915C5C2218D8FA600BF1A4B /* CalenderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0915C5C1218D8FA600BF1A4B /* CalenderData.swift */; };
+		0915C5C4218DDDC300BF1A4B /* TableViewCell_Weekly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0915C5C3218DDDC300BF1A4B /* TableViewCell_Weekly.swift */; };
+		0968F962218EBF25004DEB44 /* calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0968F961218EBF25004DEB44 /* calendar@2x.png */; };
+		0968F964218EBF6D004DEB44 /* database@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0968F963218EBF6D004DEB44 /* database@2x.png */; };
+		0968F966218EBF8D004DEB44 /* order@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0968F965218EBF8D004DEB44 /* order@2x.png */; };
+		0968F972218ECBD3004DEB44 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 0968F971218ECBD2004DEB44 /* refresh.png */; };
+		0968F974218ED4C4004DEB44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0968F973218ED4C4004DEB44 /* Assets.xcassets */; };
+		09C5F0BF218E9C6400BE3E13 /* TableViewCell_Daily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C5F0BE218E9C6400BE3E13 /* TableViewCell_Daily.swift */; };
 		09D18AF2218CA997002A2DE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D18AF1218CA997002A2DE4 /* AppDelegate.swift */; };
-		09D18AF4218CA997002A2DE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D18AF3218CA997002A2DE4 /* ViewController.swift */; };
 		09D18AF7218CA997002A2DE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09D18AF5218CA997002A2DE4 /* Main.storyboard */; };
-		09D18AF9218CA998002A2DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D18AF8218CA998002A2DE4 /* Assets.xcassets */; };
 		09D18AFC218CA998002A2DE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09D18AFA218CA998002A2DE4 /* LaunchScreen.storyboard */; };
+		09D18B04218CB4E3002A2DE4 /* MonthlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D18B03218CB4E3002A2DE4 /* MonthlyViewController.swift */; };
+		09D18B06218CB85D002A2DE4 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D18B05218CB85D002A2DE4 /* CollectionViewCell.swift */; };
+		09D35752218DDE850011AB0B /* WeeklyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D35751218DDE850011AB0B /* WeeklyViewController.swift */; };
+		09D35754218DF52E0011AB0B /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D35753218DF52E0011AB0B /* DailyViewController.swift */; };
+		09D35756218E04230011AB0B /* VCWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D35755218E04230011AB0B /* VCWrite.swift */; };
+		09D35759218E0E3D0011AB0B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D35758218E0E3D0011AB0B /* libsqlite3.tbd */; };
+		09D35769218E10DB0011AB0B /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D35760218E10DA0011AB0B /* FMDatabaseAdditions.m */; };
+		09D3576A218E10DB0011AB0B /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D35762218E10DA0011AB0B /* FMDatabaseQueue.m */; };
+		09D3576B218E10DB0011AB0B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D35764218E10DB0011AB0B /* FMResultSet.m */; };
+		09D3576C218E10DB0011AB0B /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D35765218E10DB0011AB0B /* FMDatabasePool.m */; };
+		09D3576D218E10DB0011AB0B /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D35766218E10DB0011AB0B /* FMDatabase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0915C5C1218D8FA600BF1A4B /* CalenderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderData.swift; sourceTree = "<group>"; };
+		0915C5C3218DDDC300BF1A4B /* TableViewCell_Weekly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell_Weekly.swift; sourceTree = "<group>"; };
+		0968F961218EBF25004DEB44 /* calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar@2x.png"; sourceTree = "<group>"; };
+		0968F963218EBF6D004DEB44 /* database@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "database@2x.png"; sourceTree = "<group>"; };
+		0968F965218EBF8D004DEB44 /* order@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "order@2x.png"; sourceTree = "<group>"; };
+		0968F971218ECBD2004DEB44 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		0968F973218ED4C4004DEB44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09C5F0BE218E9C6400BE3E13 /* TableViewCell_Daily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell_Daily.swift; sourceTree = "<group>"; };
 		09D18AEE218CA997002A2DE4 /* SimpleCalender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCalender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D18AF1218CA997002A2DE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09D18AF3218CA997002A2DE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		09D18AF6218CA997002A2DE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		09D18AF8218CA998002A2DE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09D18AFB218CA998002A2DE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09D18AFD218CA998002A2DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09D18B03218CB4E3002A2DE4 /* MonthlyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyViewController.swift; sourceTree = "<group>"; };
+		09D18B05218CB85D002A2DE4 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		09D35751218DDE850011AB0B /* WeeklyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyViewController.swift; sourceTree = "<group>"; };
+		09D35753218DF52E0011AB0B /* DailyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
+		09D35755218E04230011AB0B /* VCWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCWrite.swift; sourceTree = "<group>"; };
+		09D35758218E0E3D0011AB0B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		09D3575B218E10D90011AB0B /* SimpleCalender-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleCalender-Bridging-Header.h"; sourceTree = "<group>"; };
+		09D3575C218E10DA0011AB0B /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		09D3575D218E10DA0011AB0B /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		09D3575E218E10DA0011AB0B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09D3575F218E10DA0011AB0B /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		09D35760218E10DA0011AB0B /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		09D35761218E10DA0011AB0B /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		09D35762218E10DA0011AB0B /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		09D35763218E10DB0011AB0B /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		09D35764218E10DB0011AB0B /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		09D35765218E10DB0011AB0B /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		09D35766218E10DB0011AB0B /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		09D35767218E10DB0011AB0B /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +71,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09D35759218E0E3D0011AB0B /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0968F958218EBC9F004DEB44 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0968F971218ECBD2004DEB44 /* refresh.png */,
+				0968F961218EBF25004DEB44 /* calendar@2x.png */,
+				0968F963218EBF6D004DEB44 /* database@2x.png */,
+				0968F965218EBF8D004DEB44 /* order@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		09D18AE5218CA997002A2DE4 = {
 			isa = PBXGroup;
 			children = (
+				0968F958218EBC9F004DEB44 /* Resources */,
+				09D3575A218E10B50011AB0B /* fmdb */,
 				09D18AF0218CA997002A2DE4 /* SimpleCalender */,
 				09D18AEF218CA997002A2DE4 /* Products */,
+				09D35757218E0E3D0011AB0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +112,48 @@
 			isa = PBXGroup;
 			children = (
 				09D18AF1218CA997002A2DE4 /* AppDelegate.swift */,
-				09D18AF3218CA997002A2DE4 /* ViewController.swift */,
 				09D18AF5218CA997002A2DE4 /* Main.storyboard */,
-				09D18AF8218CA998002A2DE4 /* Assets.xcassets */,
+				09C5F0BE218E9C6400BE3E13 /* TableViewCell_Daily.swift */,
+				09D35755218E04230011AB0B /* VCWrite.swift */,
+				09D35753218DF52E0011AB0B /* DailyViewController.swift */,
+				09D18B03218CB4E3002A2DE4 /* MonthlyViewController.swift */,
+				09D35751218DDE850011AB0B /* WeeklyViewController.swift */,
+				09D18B05218CB85D002A2DE4 /* CollectionViewCell.swift */,
+				0915C5C3218DDDC300BF1A4B /* TableViewCell_Weekly.swift */,
 				09D18AFA218CA998002A2DE4 /* LaunchScreen.storyboard */,
 				09D18AFD218CA998002A2DE4 /* Info.plist */,
+				0915C5C1218D8FA600BF1A4B /* CalenderData.swift */,
+				0968F973218ED4C4004DEB44 /* Assets.xcassets */,
 			);
 			path = SimpleCalender;
+			sourceTree = "<group>";
+		};
+		09D35757218E0E3D0011AB0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09D35758218E0E3D0011AB0B /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09D3575A218E10B50011AB0B /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				09D35763218E10DB0011AB0B /* FMDatabase.h */,
+				09D35766218E10DB0011AB0B /* FMDatabase.m */,
+				09D35761218E10DA0011AB0B /* FMDatabaseAdditions.h */,
+				09D35760218E10DA0011AB0B /* FMDatabaseAdditions.m */,
+				09D35767218E10DB0011AB0B /* FMDatabasePool.h */,
+				09D35765218E10DB0011AB0B /* FMDatabasePool.m */,
+				09D3575F218E10DA0011AB0B /* FMDatabaseQueue.h */,
+				09D35762218E10DA0011AB0B /* FMDatabaseQueue.m */,
+				09D3575C218E10DA0011AB0B /* FMDB.h */,
+				09D3575D218E10DA0011AB0B /* FMResultSet.h */,
+				09D35764218E10DB0011AB0B /* FMResultSet.m */,
+				09D3575E218E10DA0011AB0B /* Info.plist */,
+				09D3575B218E10D90011AB0B /* SimpleCalender-Bridging-Header.h */,
+			);
+			path = fmdb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +188,7 @@
 				TargetAttributes = {
 					09D18AED218CA997002A2DE4 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -123,8 +216,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				09D18AFC218CA998002A2DE4 /* LaunchScreen.storyboard in Resources */,
-				09D18AF9218CA998002A2DE4 /* Assets.xcassets in Resources */,
+				0968F964218EBF6D004DEB44 /* database@2x.png in Resources */,
+				0968F962218EBF25004DEB44 /* calendar@2x.png in Resources */,
 				09D18AF7218CA997002A2DE4 /* Main.storyboard in Resources */,
+				0968F974218ED4C4004DEB44 /* Assets.xcassets in Resources */,
+				0968F966218EBF8D004DEB44 /* order@2x.png in Resources */,
+				0968F972218ECBD3004DEB44 /* refresh.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +232,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09D18AF4218CA997002A2DE4 /* ViewController.swift in Sources */,
+				09D35754218DF52E0011AB0B /* DailyViewController.swift in Sources */,
+				09D3576C218E10DB0011AB0B /* FMDatabasePool.m in Sources */,
+				09D3576D218E10DB0011AB0B /* FMDatabase.m in Sources */,
+				09D18B04218CB4E3002A2DE4 /* MonthlyViewController.swift in Sources */,
+				0915C5C2218D8FA600BF1A4B /* CalenderData.swift in Sources */,
+				09C5F0BF218E9C6400BE3E13 /* TableViewCell_Daily.swift in Sources */,
 				09D18AF2218CA997002A2DE4 /* AppDelegate.swift in Sources */,
+				09D35756218E04230011AB0B /* VCWrite.swift in Sources */,
+				09D3576A218E10DB0011AB0B /* FMDatabaseQueue.m in Sources */,
+				09D35769218E10DB0011AB0B /* FMDatabaseAdditions.m in Sources */,
+				09D35752218DDE850011AB0B /* WeeklyViewController.swift in Sources */,
+				09D3576B218E10DB0011AB0B /* FMResultSet.m in Sources */,
+				0915C5C4218DDDC300BF1A4B /* TableViewCell_Weekly.swift in Sources */,
+				09D18B06218CB85D002A2DE4 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +391,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CZXQ2X547C;
 				INFOPLIST_FILE = SimpleCalender/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +401,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mirae.SimpleCalender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "fmdb/SimpleCalender-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,7 +412,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CZXQ2X547C;
 				INFOPLIST_FILE = SimpleCalender/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +422,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mirae.SimpleCalender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "fmdb/SimpleCalender-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

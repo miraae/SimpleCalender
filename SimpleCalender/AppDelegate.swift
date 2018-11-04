@@ -16,6 +16,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Thread.sleep(forTimeInterval: 1.3)
+        
+        let fileMgr = FileManager.default
+        let dirPaths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
+        let docsDir = dirPaths[0] as String
+        
+        dataPath = docsDir.appending("/schedule.db")
+        // DB 파일이 없으면 DB 파일 생성
+        if !fileMgr.fileExists(atPath: dataPath) {
+            let contactDB = FMDatabase(path: dataPath)
+            // DB 열고 contacts 테이블 생성
+            if contactDB.open() {
+                let sql_stmt = "CREATE TABLE IF NOT EXISTS CONTACTS (ID INTEGER PRIMARY KEY AUTOINCREMENT, YEAR INTEGER, MONTH INTEGER, DAY INTEGER, SCHEDULE TEXT)"
+                if !contactDB.executeStatements(sql_stmt) {
+                    print("Error \(contactDB.lastErrorMessage())")
+                }
+                contactDB.close()
+            } else {
+                print("Error \(contactDB.lastErrorMessage())")
+            }
+        }
+        
         return true
     }
 
